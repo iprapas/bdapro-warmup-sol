@@ -42,9 +42,10 @@ Please submit a jar file with sources to the evaluation server. Also make sure t
 
 Your solution class must be named `PalindromeTaskImpl`, implement the interface PalindromeTask and be located in the package de.tuberlin.dima.bdapro.solutions.palindrome. If you implement any additional utility/helper classes, also put them in this package.
 
-You may use Java or Scala to implement the Java interface. However, the interface expects a Java set as return value. You can explicitly do the required conversion from a Scala sequence to a Java set using:
+You may use Java or Scala to implement the Java interface. However, the interface expects a Java set as return value. You can explicitly do the required conversion from a Scala sequence to a Java set using: 
 
-    `JavaConversions.setAsJavaSet(seq.toSet)`
+``` JavaConversions.setAsJavaSet(seq.toSet) ```
+	
 Make sure to thoroughly test your program before submitting it!
 
 ## Bonus task
